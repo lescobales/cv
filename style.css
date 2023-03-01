@@ -17,7 +17,7 @@ h1,h2,h3{
 
 h1{
     color: lightgrey;
-    font-size: large;
+    font-size: xx-large;
 }
 
 p{
@@ -47,10 +47,15 @@ nav{
     padding-right: 2rem;
 }
 
+nav ul{
+    padding-left: 0px;
+}
+
 nav ul li{
     display: inline-block;
     margin-right: 5px;
 }
+
 
 nav ul li a{
     text-decoration: none;
@@ -78,6 +83,7 @@ section{
     padding: 1rem;
     border-radius: 10px;
     margin-top: 50px;
+    text-decoration: none;
 }
 
 .display-1{
@@ -100,11 +106,12 @@ section{
 #competence .bg-light{   
     text-align: left;
     width: 800px;
-    height: 128px;
-    background-color: lightgrey;
+    background-color: white;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 20px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 #competence .bg-light p{
@@ -115,6 +122,6 @@ section{
     text-align: left;
 }
 
-div img{
+#competence div img{
   float: left;
 }
