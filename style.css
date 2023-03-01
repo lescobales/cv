@@ -34,6 +34,10 @@ hr{
     margin-bottom: 50px;
 }
 
+a{
+    text-decoration: none;
+}
+
 
 #logo{
     width: 256px;
@@ -65,7 +69,6 @@ nav ul li{
 
 
 nav ul li a{
-    text-decoration: none;
     color: rgb(37,37,37);
 }
 
@@ -91,7 +94,6 @@ section{
     padding: 1rem;
     border-radius: 10px;
     margin-top: 50px;
-    text-decoration: none;
 }
 
 .display-1{
@@ -136,6 +138,8 @@ section{
 
 #competence div img{
   float: left;
+  margin-right: 2rem;
+  margin-left: 2rem;
 }
 #container{
     text-align: center;
@@ -157,4 +161,14 @@ section{
 
 #ref .display-2{
     color: rgb(37,37,37);
+}
+
+.footer{
+    background-color: rgb(37,37,37);
+    text-align: center;
+    color: lightgrey;
+}
+
+.footer a{
+    color: lightgrey;
 }
