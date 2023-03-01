@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Open+Sans&display=swap');
+
+
+:root{
+    --marginBottom: 50px;
+}
+header{
+    background-image: url(img/bg-header.jpg);
+    padding-top: 50px;
+    padding-bottom: 1px;
+}
+
+h1,h2,h3{
+    font-family: 'Abel';
+    text-align: center;
+}
+
+h1{
+    color: lightgrey;
+    font-size: large;
+}
+
+p{
+    font-family: 'open sans';
+    width: 60%;
+    margin: auto;
+    color: rgb(37,37,37);
+}
+
+
+#logo{
+    width: 256px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#logo img{
+    border: 1px solid lightgrey;
+}
+
+nav{
+    background-color: white;
+    width:fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 5px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(37,37,37);
+}
+
+.bg-light p{
+    width: 100%;
+    text-align: center;
+}
+
+.lead{
+    font-size: large;
+}
+
+section{
+    padding-top: 50px;
+    margin-top: 30px;
+}
+
+.btn.blue{
+    display: inline-block;
+    background-color: darkcyan;
+    color: lightgrey;
+    padding: 1rem;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+.display-1{
+    color: rgb(37,37,37);
+    font-size:xx-large
+}
+
+#competence{
+    background-color: rgb(37,37,37);
+}
+
+.display-2{
+    color: lightgrey;
+}
+
+#competence hr{
+    color: lightgrey;
+}
+
+#competence .bg-light{   
+    text-align: left;
+    width: 800px;
+    height: 128px;
+    background-color: lightgrey;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+#competence .bg-light p{
+    text-align: left;
+}
+
+#competence .bg-light h3{
+    text-align: left;
+}
+
+div img{
+  float: left;
+}
